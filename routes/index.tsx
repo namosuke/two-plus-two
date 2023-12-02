@@ -20,7 +20,7 @@ export default function Home() {
         </header>
         <BigBrother signal={bigBrotherIs} />
         <div class="bg-gray-200 max-w-3xl mx-auto text-2xl p-5 flex">
-          <FormulaInput formula={formula} />
+          <FormulaInput formula={formula} bigBrotherIs={bigBrotherIs} />
           <ResultInput
             formula={formula}
             truth={truth}

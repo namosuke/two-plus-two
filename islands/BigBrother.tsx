@@ -13,6 +13,7 @@ export default function BigBrother(props: BigBrotherProps) {
         src="/big-brother.png"
         alt={`Big Brother is ${props.signal.value}`}
         class="w-96 max-w-full mx-auto"
+        title={`Big Brother is ${props.signal.value}`}
       />
     </div>
   );
