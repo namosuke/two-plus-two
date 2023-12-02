@@ -5,5 +5,7 @@
 .env.production.local
 .env.local
 
+# Fresh build directory
+_fresh/
 # npm dependencies
 node_modules/
