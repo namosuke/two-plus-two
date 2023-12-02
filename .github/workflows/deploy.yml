@@ -18,4 +18,4 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: two-plus-two # the name of the project on Deno Deploy
-          entrypoint: main.ts # the entrypoint to deploy
+          entrypoint: _fresh/main.ts # the entrypoint to deploy
