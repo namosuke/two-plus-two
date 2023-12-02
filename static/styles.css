@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes shake {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-5px);
+  }
+
+  75% {
+    transform: translateX(5px);
+  }
+}
+
+.b-b {
+  transition: height 2s linear;
+}
+
+.b-b-sleeping {
+  height: 0;
+}
+
+.b-b-watching {
+  height: 11rem;
+}
+
+.b-b-angry {
+  height: 24rem;
+  animation: shake 0.1s infinite;
+}
