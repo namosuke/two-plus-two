@@ -1,16 +1,11 @@
-# Fresh project
+[![Made with Fresh](https://fresh.deno.dev/fresh-badge.svg)](https://fresh.deno.dev)
 
-Your new Fresh project is ready to go. You can follow the Fresh "Getting
-Started" guide here: https://fresh.deno.dev/docs/getting-started
+# 2+2=5になる計算機 - Two Plus Two Equals Five Calculator
 
-### Usage
-
-Make sure to install Deno: https://deno.land/manual/getting_started/installation
-
-Then start the project:
+起動
 
 ```
 deno task start
 ```
 
-This will watch the project directory and restart as necessary.
+このサービスはジョージ・オーウェル著「1984」をモチーフにしています。サービス内に登場する画像はChatGPTで生成したものです。
