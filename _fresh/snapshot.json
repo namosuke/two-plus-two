@@ -1,0 +1,49 @@
+{
+  "build_id": "80624baec926fd31caacac4029db47f65391ea47",
+  "files": {
+    "main.js": [
+      "chunk-DIOGD74S.js",
+      "chunk-2GUEMEWN.js",
+      "chunk-BV6DNIGX.js"
+    ],
+    "deserializer.js": [],
+    "signals.js": [
+      "chunk-VFC4DNEC.js",
+      "chunk-2GUEMEWN.js",
+      "chunk-BV6DNIGX.js"
+    ],
+    "island-bigbrother.js": [
+      "chunk-BRQEXE2C.js",
+      "chunk-BV6DNIGX.js"
+    ],
+    "island-formulainput.js": [
+      "chunk-QKUHNQW3.js",
+      "chunk-DIOGD74S.js",
+      "chunk-VFC4DNEC.js",
+      "chunk-2GUEMEWN.js",
+      "chunk-BRQEXE2C.js",
+      "chunk-BV6DNIGX.js"
+    ],
+    "island-resultinput.js": [
+      "chunk-QKUHNQW3.js",
+      "chunk-DIOGD74S.js",
+      "chunk-VFC4DNEC.js",
+      "chunk-2GUEMEWN.js",
+      "chunk-BRQEXE2C.js",
+      "chunk-BV6DNIGX.js"
+    ],
+    "chunk-QKUHNQW3.js": [
+      "chunk-BV6DNIGX.js"
+    ],
+    "chunk-DIOGD74S.js": [],
+    "chunk-VFC4DNEC.js": [
+      "chunk-BV6DNIGX.js"
+    ],
+    "chunk-2GUEMEWN.js": [],
+    "chunk-BRQEXE2C.js": [
+      "chunk-BV6DNIGX.js"
+    ],
+    "chunk-BV6DNIGX.js": [],
+    "metafile.json": []
+  }
+}
