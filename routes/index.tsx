@@ -28,16 +28,31 @@ export default function Home() {
           />
         </div>
       </div>
-      <footer class="text-xs mt-60 mb-20 text-gray-500 flex justify-center">
-        <div>
-          <a
-            href="https://twitter.com/barley_ural"
-            target="_blank"
-            class=" hover:underline"
-          >
-            @barley_ural
-          </a>
-        </div>
+      <footer class="text-xs mt-60 mb-20 text-gray-400 flex justify-center divide-x divide-gray-200">
+        {[
+          {
+            url: "https://twitter.com/barley_ural",
+            label: "@barley_ural",
+          },
+          {
+            url: "https://github.com/namosuke/two-plus-two",
+            label: "ソースコード",
+          },
+          {
+            url: "https://qiita.com/namosuke/items/70e94086bfd6787a187a",
+            label: "技術記事",
+          },
+        ].map(({ url, label }) => (
+          <div class="px-3">
+            <a
+              href={url}
+              target="_blank"
+              class="hover:underline"
+            >
+              {label}
+            </a>
+          </div>
+        ))}
       </footer>
     </div>
   );
